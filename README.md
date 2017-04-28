@@ -16,5 +16,5 @@ $ ./build.sh
 ```
 4. Executar o run da seguinte forma
 ```
-$ docker run -itd --name fuse fuse-server
+$ docker run -itd --name fuse -p 61616:61616 -p 8181:8181 fuse-server
 ```
